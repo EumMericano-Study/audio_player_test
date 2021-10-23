@@ -3,11 +3,13 @@ import styled from "styled-components";
 import "./app.css";
 
 import Wav from "./wav";
+import CustomAudio from "./customAudio";
 
 function App() {
   return (
     <Container>
       <Wav />
+      <CustomAudio />
     </Container>
   );
 }
